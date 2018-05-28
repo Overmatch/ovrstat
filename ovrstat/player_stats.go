@@ -13,7 +13,7 @@ import (
 	"github.com/PuerkitoBio/goquery"
 )
 
-var client = http.Client{Timeout: time.Second * 20}
+var client = http.Client{Timeout: time.Second * 120}
 
 const (
 	// PlatformXBL is platform : XBOX
